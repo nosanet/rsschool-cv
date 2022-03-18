@@ -1,1 +1,1 @@
-# rsschool-cv
+https://nosanet.github.io/rsschool-cv/
