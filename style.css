@@ -1,9 +1,30 @@
 body {
-    box-sizing: border-box;
-    background-color: bisque;
+  box-sizing: border-box;
+  background-color: bisque;
 }
 
 .conteiner-center {
-    width: 1024px;
-    background-color: white;
+  margin: 20px auto;
+  width: 1024px;
+  background-color: white;
+}
+
+nav {
+  height: 50px;
+}
+
+.flex-inline {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 100px;
+    height: 100%;;
+}
+
+.a-decoration-none {
+  text-decoration: none;
+}
+
+.li-marker-none {
+  list-style-type: none;
 }
