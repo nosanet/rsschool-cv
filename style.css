@@ -11,6 +11,8 @@ body {
 
 nav {
   height: 50px;
+  background-color: rgb(214, 223, 213);
+  padding: 0 100px;
 }
 
 .flex-inline {
@@ -23,6 +25,8 @@ nav {
 
 .a-decoration-none {
   text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .li-marker-none {
@@ -63,8 +67,8 @@ h2 {
   display: inline-block;
   border-radius: 50%;
   overflow: hidden;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   margin: 40px 40px;
 }
 
@@ -72,4 +76,125 @@ h2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+aside {
+  padding: 0 20px 0 40px;
+  width: 330px;
+}
+
+.h2-aside {
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: 2px solid;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+main {
+  display: flex;
+}
+
+.h2-main {
+  border-bottom: 2px solid;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.about-section {
+  padding: 0 40px 10px 20px;
+  width: 694px;
+  background-color: rgb(214, 223, 213);
+}
+
+.projects-section {
+  margin-top: 25px;
+  padding: 0 40px 10px 20px;
+  width: 694px;
+  background-color: rgb(214, 223, 213);
+}
+
+.code-section {
+  margin-top: 25px;
+  padding: 0 40px 10px 20px;
+  width: 694px;
+  background-color: rgb(214, 223, 213);
+}
+
+.contacs-section {
+  margin-top: 25px;
+  padding: 0 40px 10px 20px;
+  width: 694px;
+  background-color: rgb(214, 223, 213);
+}
+
+.about-me-text {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.li-section{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.li-aside {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.p-aside {
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 10px;
+  line-height: 17px;
+}
+
+.div-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.ul-aside {
+  margin-bottom: 12px;
+}
+
+.code-div {
+  color: white;
+  background-color: black;
+  font-family: monospace;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.span-blue {
+color: rgb(0, 0, 255);
+}
+
+.span-purple {
+color: purple;
 }
