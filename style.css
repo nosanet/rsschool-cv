@@ -33,6 +33,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   margin: 0 100px;
+  margin-bottom: 20px;
 }
 
 .a-decoration-none {
@@ -131,28 +132,28 @@ main {
 .about-section {
   padding: 0 40px 10px 20px;
   width: 694px;
-  background-color: rgb(214, 223, 213);
+  background-color: rgb(194, 204, 193);
 }
 
 .projects-section {
   margin-top: 25px;
   padding: 0 40px 10px 20px;
   width: 694px;
-  background-color: rgb(214, 223, 213);
+  background-color:  rgb(194, 204, 193);
 }
 
 .code-section {
   margin-top: 25px;
   padding: 0 40px 10px 20px;
   width: 694px;
-  background-color: rgb(214, 223, 213);
+  background-color: rgb(194, 204, 193);
 }
 
 .contacs-section {
   margin-top: 25px;
   padding: 0 40px 10px 20px;
   width: 694px;
-  background-color: rgb(214, 223, 213);
+  background-color: rgb(194, 204, 193);
 }
 
 .about-me-text {
@@ -221,7 +222,10 @@ color: purple;
 
 .div-footer {
   display: flex;
-  background-color:  rgb(31, 31, 31);
+  background-color:   rgb(31, 31, 31);
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .link:hover {
@@ -236,5 +240,24 @@ color: purple;
 .link2:hover {
   color: #007512;
   transition: 0.5s;
+}
+
+.git-hub-footer {
+  margin: 10px 0;
+}
+
+.years-footer {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.rs-logo-footer {
+  filter: invert(1);
+}
+
+.link-to-github-footer:hover {
+  filter: blur(1px);
+  transition: 0.3s;
 }
 
