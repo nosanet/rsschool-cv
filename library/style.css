@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
 /* inter-regular - latin */
 @font-face {
     font-display: swap; 
