@@ -48,7 +48,10 @@ background: #0C0C0E;
 }
 
 .h1-div {
+    display: flex;
     margin: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -57,8 +60,8 @@ h1 {
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    line-height: 50px;
     letter-spacing: 0.6px;
+    margin: 0;
 }
 
 .nav-div {
@@ -83,11 +86,59 @@ nav {
     font-style: normal;
     font-weight: 400;
     line-height: 50px;
-    margin-left: 30px;
+    margin-left: 31px;
     text-decoration: none;
 }
 
+.first-link {
+    margin-left: 0;
+}
+
 .icon-profile-div {
-    align-self: center;
-    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    margin: 31px 20px;
+}
+
+.icon-profile {
+    width: 28px;
+    height: 28px;
+}
+
+.welcome-section-div {
+    background: linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%,rgba(18,18,21,0.10) 50% ), url(assets/Welcome.png);
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.welcome-div-textblock {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 220px;
+    background: #0C0C0E;
+    margin-top: 60px;
+}
+
+.welcome-p {
+    margin: 0;
+    padding: 0;
+    
+    color: white;
+    text-align: center;
+    font-family: 'Forum';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 35px 40px;
+    padding-left: 42px;
+    
 }
