@@ -39,7 +39,7 @@ body {
 .conteiner {
     width: 1440px;
     margin: 0 auto;
-    background-color: tan;
+    background-color: rgb(134, 201, 228);
 }
 
 .header-div {
@@ -141,4 +141,78 @@ nav {
     padding: 35px 40px;
     padding-left: 42px;
     
+}
+
+.line-title {
+    width: 50px;
+    height: 1px;
+    background: #0C0C0E;
+    margin-bottom: 40px;
+}
+
+.h2-title-section {
+    margin: 20px 0;
+    color: #0C0C0E;
+    font-family: 'Forum';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.about-section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-section-textblock {
+    display: flex;
+    justify-content: center;
+}
+
+.about-section-p {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0 0;
+    margin-bottom: 20px;
+}
+
+.about-section-img-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.about-section-carousel-input {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-input-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.carousel-input {
+    width: 16px;
+    height: 16px;
+    background: #0C0C0E;
+    border-radius: 50%;
+}
+
+.carousel-input-active {
+    background: #BB945F;
 }
