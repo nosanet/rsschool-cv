@@ -216,3 +216,58 @@ nav {
 .carousel-input-active {
     background: #BB945F;
 }
+
+.favorites-section-conteiner {
+    margin: 0 20px;
+}
+
+.favorites-section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pick-text {
+    margin: 0 0;
+    color: #000;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+
+
+.lable-favorites{
+    padding: 0 0;
+    margin: 0 0;
+    
+}
+
+.active-lable {
+    font-weight: 700;
+}
+
+.radio-button-favorite-section {
+    margin-right: 14px;
+    width: 17px;
+    height: 17px;
+    accent-color: black;
+}
+
+.radio-div {
+    display: flex;
+    color: #000;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.radio-element-div {
+    margin-right: 91px;
+}
