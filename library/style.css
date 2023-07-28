@@ -6,6 +6,10 @@ html {
     box-sizing: border-box;
 }
 
+p {
+    margin: 0;
+}
+
 /* inter-regular - latin */
 @font-face {
     font-display: swap; 
@@ -463,4 +467,52 @@ nav {
 
 .right-text {
     text-align: right;
+}
+
+.contacts-section {
+    margin: 0 20px;
+    margin-bottom: 40px;
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-div {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.p1-contacts-text {
+    margin-bottom: 40px;
+}
+
+.p2-contacts-text {
+
+}
+
+.p3-contacts-text {
+    margin: 20px 0;
+}
+.p4-contacts-text {
+    margin-bottom: 40px;
+}
+
+.p5-contacts-text {
+    margin-bottom: 20px;
+}
+
+.p6-contacts-text {
+
+}
+
+.bold-text {
+    font-weight: 700;
 }
