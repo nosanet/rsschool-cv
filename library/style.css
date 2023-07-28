@@ -33,13 +33,13 @@ html {
 }
 
 body {
-    background-color: gray;
+    background-color: white;
 }
 
 .conteiner {
     width: 1440px;
     margin: 0 auto;
-    background-color: rgb(134, 201, 228);
+    background-color: rgb(241, 255, 207)
 }
 
 .header-div {
@@ -162,11 +162,13 @@ nav {
     text-transform: capitalize;
 }
 
-.about-section-title {
+.div-section-title {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+
 
 .about-section-textblock {
     display: flex;
@@ -221,11 +223,6 @@ nav {
     margin: 0 20px;
 }
 
-.favorites-section-title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .pick-text {
     margin: 0 0;
@@ -377,4 +374,93 @@ nav {
 .favorite-button-own {
     border: 1px solid #BB945F;
     color: #BB945F;
+}
+
+.coffee-shop-section-div
+{
+    margin: 0 20px;
+}
+
+.coffe-shop-text-block {
+    margin: 0 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.menu-div-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.title-menu {
+    margin: 0 0;
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; 
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.menu-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.item-row {
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+}
+
+.item-row-rigth-menu {
+    align-self: flex-end;
+}
+
+.dash-menu {
+    width: 100px;
+    height: 1px;
+    background: #BB945F;;
+}
+
+.item-menu {
+    color: #000;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; 
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    width: 199px;
+}
+
+.item-menu-right {
+    width: 212px;
+}
+
+.price-menu {
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.right-text {
+    text-align: right;
 }
