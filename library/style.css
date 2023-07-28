@@ -251,10 +251,11 @@ nav {
 }
 
 .radio-button-favorite-section {
-    margin-right: 14px;
+    margin-right: 20px;
     width: 17px;
     height: 17px;
     accent-color: black;
+
 }
 
 .radio-div {
@@ -269,5 +270,111 @@ nav {
 }
 
 .radio-element-div {
+    display: flex;
+    align-items: center;
     margin-right: 91px;
+}
+
+.favorites-div-book {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+    margin-bottom: 40px;
+}
+
+.favorites-div-parent-staff {
+    width: 590px;
+    height: 555px;
+   /* background: #f3b2b2;*/
+}
+
+.favorites-div-staff {
+    width: 550px;
+    height: 555px;
+    border: 1px solid #000;
+    background: #fff;
+    
+}
+
+.book-1 {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    top: -300px;
+    left: 390px;
+}
+
+.staff-title {
+    color: #000;
+    font-family: 'Forum';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 15px 0 0 20px;
+}
+
+.line-staff {
+    width: 60px;
+    height: 1px;
+    background: #BB945F;
+    margin: 0 0 20px 20px;
+}
+
+.name-and-author {
+    line-height: 40px;
+    color: #000;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0 0 20px 20px;
+}
+
+.name-span {
+    text-transform: uppercase;
+}
+
+.author-span {
+    text-transform: capitalize;
+}
+
+.description-book {
+    width: 355px;
+    height: 320px;
+    color: #000;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 0 0 15px 20px;
+}
+
+.favorite-button {
+    width: 75px;
+    height: 30px;
+    margin: 0 0 15px 20px;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    background-color: white;
+}
+
+.favorite-button-own {
+    border: 1px solid #BB945F;
+    color: #BB945F;
 }
